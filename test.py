@@ -7,3 +7,6 @@ def test_model():
     model = LogisticRegression(max_iter=200)
     model.fit(X, y)
     assert model.score(X, y) > 0.9
+
+
+test_model()
